@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+.contenedorFlex{
+    display: flex;
+    width: 400px;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: flex;
+    background-color: burlywood;
+    padding: 10px;
+    border: 2px solid black;
+}
+.item{
+    background-color: aqua;
+    width: 100px;
+    margin: 10px;
+    border: 2px solid;
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+}
