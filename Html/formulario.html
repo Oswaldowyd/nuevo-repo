@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="/css/formulario.css">
+</head>
+<header>
+<h1>Formulario</h1>
+
+
+<div class="contenedor">
+
+
+    <section>
+        <form action="https://formsubmit.co/sevillaveraoswaldo@email.com" 
+        method="POST">
+        <div class="nombre">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="Nombre" required
+            placeholder = "escribe aqui tu nombre" required>
+            <br>
+        </div>
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" name="fechanac" id="fechanacimiento" required
+        placeholder = "dia-mes-ano" required> <br>
+
+        <label for="sexo">Femenino</label>
+        <input type="radio" id="sexo" name="sexo"
+        value="Masculino
+        required">
+        <label for="">Masculino</label>
+        <input type="radio" id="sexo" name="sexo"
+        value="Masculino
+        required">
+
+        <label for="">Sexo</label>
+         <br>
+        <label for="lugar">Lugar de nacimiento</label>
+        <select name="lugar" id="lugar">
+        <option value="Escuinapa">Escuinapa</option>
+        <option value="Mazatlan">Mazatlan</option>
+        <option value="Culiacan">Culiacan</option>
+        <option value="Guamuchil">Guamuchil</option>
+        <option value="Guasave">Guasave</option>
+        <option value="Los mochis">Los mochis</option>
+        </select>
+        <label for="poblacion">poblacion</label>
+        <input type="text" id="poblacion" name="poblacion"
+        placeholder="Escriba aqui la poblacion"
+        required>
+        <br>
+
+        <label for="idiomas">Que idiomas hablas</label>
+        <li>
+            <label for="espanol">Espanol</label>
+            <input type="checkbox" name="idioma"
+            id="idioma" value="Espanol">
+
+            <label for="ingles">Ingles</label>
+            <input type="checkbox" name="idioma"
+            id="idioma" value="Ingles">
+
+            <label for="frances">Frances</label>
+            <input type="checkbox" name="idioma"
+            id="idioma" value="Frances">
+        </li>
+        <br>
+
+        <label for="correo">Email</label>
+        <input type="email" name="correo" id="correo"
+        placeholder="tucorreo@dominio.com" required>
+
+        <label for="fecEgreso">Ano y mes de egreso de educacion primaria</label>
+        <input type="month" name="mes Egreso" id="mes" required>
+        <br>
+        <label for="habitos">Habitos personales</label>
+        <br>
+        <textarea name="habitos" id="habitos" cols="30" rows="10">
+Escribir habitos personales.
+        </textarea>
+        <br>
+
+        <label for="nivelingreso">Nivel de ingres</label>
+        <input type="range" name="nivelingreso"
+        id="nivelingreso"
+        list="ingresoslist"
+        min="5000" max="500000" value="25000">
+        <br>
+        <datalist id="ingresoslist">
+            <option value="5000"></option>
+            <option value="10000"></option>
+            <option value="15000"></option>
+            <option value="20000"></option>
+            <option value="25000"></option>
+            <option value="30000"></option>
+            <option value="50000"></option>
+            <option value="10000"></option>
+        </datalist>
+        <label for="ingresoslista" id="datoslist">
+            5000 10000 15000 20000 30000 50000 100000
+        </label>
+        <br>
+
+        <label for="hora">Horario disponible</label>
+        <br>
+        <input type="time" name="horario disponible" id="inicio"
+        required> <h2>A</h2>
+        <input type="time" name="Horario disponible"
+        id="fin" required>
+
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+
+
+    
+
+
+
+       </form>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+</div>
+
+</header>
+<body>
+    
+</body>
+</html>
