@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Imc</title>
+</head>
+
+<body>
+    <center>
+        <section>
+            <header>
+                <h3>Calculo de Imc</h3>
+                <hr>
+            </header>
+            <label for="">Altura</label>
+            <input type="number" name="altura" id="altura" required>
+            <label for="">Peso</label>
+            <input type="number" name="peso" id="peso"> <br>
+            <label for="">Resultado IPC</label>
+            <input type="text" id="resultado" name="resultado" readonly>
+            <button id="btnCalcular">Calcular</button>
+            <button id="btnLimpiar">Limpiar</button>
+        </section>
+        <section>
+            <header>
+                <h3>Operaciones aritmeticas</h3>
+                <h4>Usando combo Box</h4>
+            </header>
+
+            <hr>
+            <input type="number" name="idNumero1" id="idNumero1" required
+            placeholder="Captura un valor numerico">
+            <select name="opcion" id="idOpcion">
+                <option value="1">Suma
+                    <option value="2">Resta</option>
+                    <option value="3">Multiplicacion</option>
+                    <option value="4">Division</option>
+                </option>
+            </select>
+
+            <input type="number" name="idNumero2" id="idNumero2" required
+            placeholder="captura un valor numerico">
+            <br>
+            <label for="">Resultado</label>
+            <input type="text" name="" id="idResultado">
+            <button id="btnCalcularp2">Calcular</button>
+            <button id="btnLimpiar">Limpiar</button>
+
+
+
+
+        </section>
+    </center>
+    <script src="/js/app.js"></script>
+    
+</body>
+</html>
